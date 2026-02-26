@@ -1,0 +1,38 @@
+.Cart {
+  width: 70%;
+  margin: 0 auto;
+
+  padding-bottom: 60px;
+}
+
+.Cart h2 {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.Cart .CartPageItem {
+  margin-bottom: 20px;
+}
+
+.Cart .total_price {
+  display: flex;
+
+  margin-top: 20px;
+  font-size: 30px;
+  align-items: center;
+  font-weight: bold;
+  text-align: right;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 8px;
+}
+
+.Cart .total_price .button_payment {
+  padding: 16px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+
+  border: none;
+  cursor: pointer;
+}

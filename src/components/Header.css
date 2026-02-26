@@ -1,0 +1,33 @@
+.Header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Header .title {
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Header .leftChild, .rightChild {
+    margin: 30px;
+    font-size: 36px;
+}
+
+.header-gap-bottom {
+    height: 100px;
+}

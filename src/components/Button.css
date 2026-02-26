@@ -1,0 +1,100 @@
+
+.Button .button_cart {
+    background: none;        /*배경색을 제거합니다*/
+    border: none;            /*테두리를 제거합니다*/
+    padding: 0;              /*내부 여백을 0으로 만듭니다*/
+    font: inherit;           /*부모 요소의 폰트 설정을 상속받게 합니다*/
+    cursor: pointer;         /*커서를 포인터로 변경하여 클릭을 표시합니다*/
+    text-decoration: none;   /*텍스트 장식을 제거합니다*/
+}
+
+
+.Button .button_back {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.Button .button_addToCart {
+    color: white;
+    background-color: rgb(0, 113, 227);
+    border-radius: 10px;                    /* 둥근 모서리*/
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 부드러운 배경색 전환 효과*/
+    border:none;                            /* 테두리 제거 */
+}
+
+
+.Button .button_addToCart:hover {  /* 마우스 오버 시 배경색 전환*/
+    background-color: rgb(30, 140, 255); 
+}
+
+.Button .button_addToCart:active { /* 클릭 시 배경색 전환과 약간의 축소 효과*/
+    background-color: rgb(0, 90, 190); 
+    transform: scale(0.96);
+}
+
+
+.Button .button_remove {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border:none;
+}
+
+
+.Button .button_remove:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.Button .button_remove:active {
+    background-color: rgba(0, 0, 0, 0.6); 
+    transform: scale(0.96); 
+}
+
+.Button .button_payment {
+    color: white;
+    background-color: rgb(0, 113, 227);
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border:none;
+}
+
+.Button .button_payment:hover {
+    background-color: rgb(30, 140, 255); 
+}
+
+.Button .button_payment:active {
+    background-color: rgb(0, 90, 190);
+    transform: scale(0.96);
+}
+
+
+.Button .button_home {
+    color: white;
+    background-color: rgb(0, 113, 227);
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border:none;
+    font-size: larger;
+}
+
+
+.Button .button_home:hover {
+    background-color: rgb(30, 140, 255);
+}
+
+.Button .button_home:active {
+    background-color: rgb(0, 90, 190);
+    transform: scale(0.96);
+}

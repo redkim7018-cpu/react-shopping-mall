@@ -1,0 +1,15 @@
+.Loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;    /* 화면 양옆을 꽉 채웁니다. */
+    height: 100vh;  /* 화면 위아래를 꽉 채웁니다. */
+}
+
+.Loading .notice {
+    text-align: center;
+    font-size: 24px;
+    flex-grow: 1;
+}

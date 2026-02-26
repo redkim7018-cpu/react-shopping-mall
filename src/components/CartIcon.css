@@ -1,0 +1,32 @@
+.CartIcon {
+    position: relative; /* 아이콘 배지 위치를 자유롭게 설정해 줍니다.*/
+    display: inline-block;
+}
+
+.CartIcon .count { 
+
+    position: absolute; /*(.CartIcon)를 기준으로 자유롭게 위치를 지정합니다. */
+    bottom: -10px; 
+    right: 0px; 
+    
+    background-color: #ef4444; /* 배경색을 빨간색으로 지정합니다. */
+    color: white; /* 글자색을 흰색으로 지정합니다. */
+    
+    /* 주변 원형에 크기 및 원형을 만들ㅇ 줍니다.*/
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    
+    /* 내부 숫자를 월형 안에 정열 및 크기를 지정합니다. */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 12px; 
+    font-weight: bold; 
+    padding: 4px; 
+    
+    /* 미세한 그림자를 추가*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    
+    z-index: 10; /* 다른 요소들 위에 보이도록 우선순위로 합니다. */
+}

@@ -1,0 +1,35 @@
+.CheckBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    user-select: none;
+}
+
+.CheckBox .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.CheckBox .item input {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.CheckBox .item .name {
+    padding-right: 10px;
+}
+
+.CheckBox Button {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    padding: 12px;
+}

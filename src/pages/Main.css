@@ -1,0 +1,28 @@
+.Main .categories {
+    text-align: left;
+    margin: 0 15% 80px 15%;
+}
+
+.Main .item_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+    gap: 50px;
+}
+
+.Main .order {
+    display: flex;
+    justify-content: left;
+    margin: 0 15% 40px 15%;
+}
+
+.Main .order select {    
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 5px 20px;
+}

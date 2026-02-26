@@ -1,0 +1,56 @@
+.MainPageItem {  /* 메인페이지 아이템 전체의 구성입니다. */
+    background-color: white;  /*배경색을 흰색으로 만듭니다. */
+    display: flex; /* MainPageItem 안의 구성물을 자유롭게 정렬할 수 있게 해주는 기능입니다. */
+    flex-direction: column; /* MainPageItem 안의 구성물들을 세로로 정렬합니다. */
+    justify-content: center; /* MainPageItem 안의 구성물들을 가운데 정렬합니다. */
+    
+    min-width: 300px;  /* MainPageItem의 가로 폭을 최소 300px으로 고정시킵니다. */
+    min-height: 450px;  /* MainPageItem의 세로 높이를 최소 450px으로 고정시킵니다. */
+    max-width: 300px;  /* MainPageItem의 가로 폭을 최대 300px으로 고정시킵니다. */
+    max-height: 450px;  /* MainPageItem의 세로 높이를 최대 450px으로 고정시킵니다. */
+    border-radius: 10px; /* MainPageItem의 모서리를 둥글게 만들어줍니다. */
+    cursor: pointer; /* 마우스를 카드 위에 올렸을 때 마우스 커서 모양을 손가락 모양으로 바꿔줍니다. */
+    
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3); /* MainPageItem에 그림자를 넣어 입체감을 줍니다 */
+}
+
+.MainPageItem .image_section { /*메인페이지 아이템의 이미지 구역입니다. */
+    display: flex; /* MainPageItem .image_section 안의 구성물을 자유롭게 정렬할 수 있게 해주는 기능입니다. */
+    flex-grow: 0.5; /* MainPageItem의 다른 구성물에 비해 image가 차지하는 공간의 비율을 정합니다. */
+    justify-content: center; /* 이미지 구역 안에서 image의 가로를 가운데 정렬합니다. */
+    align-items: center;  /* 이미지 구역 안에서 image의 세로를 가운데 정렬합니다. */
+}
+
+.MainPageItem img { /* 이미지입니다. */
+    max-width: 250px; /* image의 가로 폭을 최소 250px으로 고정시킵니다. */
+    max-height: 200px; /* image의 세로 폭을 최소 200px으로 고정시킵니다. */
+    object-fit: cover;  /* 이미지가 찌그러지지 않고 원래 비율을 유지하면서 정해진 공간에 꽉 차게 보이도록 만듭니다. */
+}
+
+.MainPageItem .title {  /* 제목입니다. */
+    display: flex; /* title을 자유롭게 정렬할 수 있게 해주는 기능입니다. */
+    text-align: left; /* title을 왼쪽에 정렬합니다. */
+
+    font-size: 24px;  /* title의 크기를 24px로 정합니다. */
+    font-weight: 100;  /* title의 굵기를 얇게 만듭니다. */
+
+    padding: 10px; /* title 주변에 안쪽 여백을 줍니다. */
+    margin: 5px;  /* title 주변에 바깥쪽 여백을 줍니다. */
+}
+
+.MainPageItem .stars {  /* 별점입니다. */
+    text-align: left;  /* starts를 왼쪽으로 정렬합니다. */
+    font-size: 24px;  /* stars의 크기를 24px로 정합니다. */
+    padding: 0px 12px;  /* 위아래 여백은 0px, 좌우 여백은 12px로 지정해 글자 좌우에만 여유 공간을 줍니다. */
+}
+
+.MainPageItem .price {  /* 가격입니다. */
+    display: flex; /* price를 자유롭게 정렬할 수 있게 해주는 기능입니다. */
+    text-align: left; /* price를 왼쪽으로 정렬합니다. */
+
+    font-size: 50px; /* price의 크기를 50px로 정합니다. */
+    font-weight: 600; /* price의 굵기를 두껍게 만듭니다. */
+
+    padding: 10px; /* price 주변에 안쪽 여백을 줍니다. */
+    margin: 5px;  /* price 주변에 바깥쪽 여백을 줍니다. */
+}

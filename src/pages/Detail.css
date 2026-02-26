@@ -1,0 +1,77 @@
+.Detail .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.Detail .wrapper img {
+    width: 500px;
+    height: 500px;  
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+.Detail .wrapper .content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+}
+
+.Detail .wrapper .content .title {
+    font-size: 48px;
+    font-weight: 100;
+    margin: 0;
+    text-align: left;
+}
+
+.Detail .wrapper .content .price {
+    font-size: 72px;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+}
+
+.Detail .wrapper .content .description {
+    text-align: left;
+}
+
+.Detail .wrapper .content .quantity_wrapper {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+.Detail .wrapper .content .quantity_wrapper select {
+    font-size: 24px;
+    margin: 0;
+}
+
+.Detail .wrapper .content .totalPrice {
+    text-align: left;
+    margin: 0;
+}
+
+.Detail .wrapper .content .description {
+    flex-grow: 1;
+}
+
+.Detail .wrapper .content .bottom_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Detail .wrapper .content .bottom_section .totalPrice {
+    font-size: 32px;
+}
+
+.Detail .wrapper .content .bottom_section Button {
+    padding: 20px;
+    font-size: 24px;
+}
